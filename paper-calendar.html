@@ -310,6 +310,7 @@
             return false;
           }
           this.date = event.model.item.date;
+          this.fire('date-change', { date: this.date});
         },
         _isDateInBounds: function(date) {
           return !date || (
