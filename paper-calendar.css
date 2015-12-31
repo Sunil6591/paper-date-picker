@@ -73,6 +73,7 @@
 }
 .day-item.today .day {
   color: var(--default-primary-color);
+  @apply(--calendar-today-day);
 }
 .day-item.selected.today .day {
   color: var(--text-primary-color);
